@@ -6,7 +6,7 @@
 - **Dados Categoricos**: Dados que podem ser manipulados usando o conceito de classes.
 - **Dados Numéricos**: Dados que podem ser manipulados matematicamente.
 - **Instância**: Uma linha de um dataset, um registro com características de um produto/negócio.
-- **Modelo**: Um algoritmo de aprendizado de máquina treinado com um conjunto de dados.
+- **Modelo**: Um algoritmo de aprendizado de máquina treinado com um conjunto de dados. Uma representação do que o algoritmo aprendeu
 - **Discretização**: Processo de transformar dados contínuos em dados discretos.
 
 ## Termos de Aprendizado de Máquina
@@ -25,6 +25,7 @@
 - **Deep Learning**: Subcampo do aprendizado de máquina que utiliza redes neurais profundas para modelar e entender dados complexos.
 - **Feature Engineering**: Processo de usar conhecimento de domínio para extrair características dos dados brutos que ajudam a melhorar a performance do modelo.
 - **Hiperparâmetros**: Parâmetros que são definidos antes do processo de treinamento do modelo e que controlam o comportamento do algoritmo de aprendizado.
+- **Hold-Out**: Técnica usada para avaliar a performance de um modelo de aprendizado de máquina, dividindo os dados em treinamento e teste.
 - **Inteligência Artificial (IA)**: Campo da ciência da computação focado na criação de sistemas capazes de realizar tarefas que normalmente requerem inteligência humana.
 - **Supervisionado**: Tipo de aprendizado de máquina onde o modelo é treinado com dados rotulados.
 - **Não Supervisionado**: Tipo de aprendizado de máquina onde o modelo é treinado com dados não rotulados.
@@ -34,3 +35,14 @@
 - **Regularização**: Técnica usada para prevenir overfitting adicionando uma penalidade à complexidade do modelo.
 - **Underfitting**: Quando um modelo de aprendizado de máquina é muito simples para capturar a complexidade dos dados de treinamento.
 - **Validação Cruzada**: Técnica usada para avaliar a performance de um modelo de aprendizado de máquina, dividindo os dados em subconjuntos para treinamento e teste.
+
+
+## Medir o Desempenho do Modelo
+
+- **Métricas de Avaliação**: Conjunto de ferramentas usadas para medir o desempenho de um modelo de aprendizado de máquina.
+- **Acurácia**: Porcentagem de acertos entre o modelo e o conjunto de dados de teste.
+- **Precisão**: Proporção de instâncias classificadas corretamente em relação ao total de instâncias classificadas.
+- **Recall**: Proporção de instâncias verdadeiras classificadas corretamente em relação ao total de instâncias verdadeiras.
+- **F1-Score**: Balanço entre a precisão e o recall.
+- **Matriz de Confusão**: Matriz que mostra quantas instâncias foram classificadas corretamente em cada categoria. Usada para classificação.
+

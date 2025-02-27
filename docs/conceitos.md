@@ -38,3 +38,6 @@ kanban
     - usadas para classificação, regressão, agrupamentos e regras de associação
 - Redução de dimensionalidade / Seleção de recursos
 - Aprendizado semisupervisionado: Meio caminho entre Classificação e Agrupamento
+
+
+

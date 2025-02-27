@@ -10,3 +10,4 @@
 
 - [Glossário 🔜](docs/glossario.md)
 - [Conceitos 🔜](docs/conceitos.md)
+    - [Classificação](docs/classificacao/README.md)
