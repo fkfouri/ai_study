@@ -8,10 +8,10 @@
 
 # Table of Contents
 
-- [Glossário 🔜](docs/glossario.md)
-- [Conceitos 🔜](docs/README.md)
-    - [Classificação](docs/classificacao/README.md)
-    - [Regressão](docs/regressao/README.md)
-    - [Agrupamentos](docs/agrupamentos/README.md)
-    - [Associação](docs/associacao/README.md)
-- [Preparação de Dados](docs/preparacao_dados/README.md)
+- [Glossário 🔜](a_fundamentos/glossario.md)
+- [Conceitos 🔜](a_fundamentos/README.md)
+    - [Classificação](a_fundamentos/classificacao/README.md)
+    - [Regressão](a_fundamentos/regressao/README.md)
+    - [Agrupamentos](a_fundamentos/agrupamentos/README.md)
+    - [Associação](a_fundamentos/associacao/README.md)
+- [Preparação de Dados](a_fundamentos/preparacao_dados/README.md)
