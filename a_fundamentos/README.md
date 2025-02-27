@@ -1,4 +1,4 @@
-# [🔙](../README.md) Conceitos
+# [🔙](../README.md) Fundamentos
 
 ## Tipos de Aprendizado de Máquina
 
