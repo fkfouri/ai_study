@@ -5,6 +5,7 @@
 - **Classe**: Um atributo especial que representa a categoria. Objetivo do aprendizado de máquina.
 - **Dados Categoricos**: Dados que podem ser manipulados usando o conceito de classes.
 - **Dados Numéricos**: Dados que podem ser manipulados matematicamente.
+- **Dados Discretos**: São valores contáveis e não pode ter valores decimais. Ex. Número de carros em um estacionamento: Pode ser 10, 11, 12, etc., mas não pode ser 10.5.
 - **Instância**: Uma linha de um dataset, um registro com características de um produto/negócio.
 - **Modelo**: Um algoritmo de aprendizado de máquina treinado com um conjunto de dados. Uma representação do que o algoritmo aprendeu
 - **Discretização**: Processo de transformar dados contínuos em dados discretos.
@@ -24,6 +25,8 @@
 - **Dataset (Conjunto de Dados)**: Coleção de dados usada para treinar e testar modelos de aprendizado de máquina.
 - **Deep Learning**: Subcampo do aprendizado de máquina que utiliza redes neurais profundas para modelar e entender dados complexos.
 - **Feature Engineering**: Processo de usar conhecimento de domínio para extrair características dos dados brutos que ajudam a melhorar a performance do modelo.
+- **Feature Scaling**: Processo de normalizar os dados para que eles tenham a mesma escala e distribuição.
+- **Gradient Descent**: Algoritmo usado para encontrar o ponto de mínimo de uma função de custo. Uso em redes neurais.
 - **Hiperparâmetros**: Parâmetros que são definidos antes do processo de treinamento do modelo e que controlam o comportamento do algoritmo de aprendizado.
 - **Hold-Out**: Técnica usada para avaliar a performance de um modelo de aprendizado de máquina, dividindo os dados em treinamento e teste.
 - **Inteligência Artificial (IA)**: Campo da ciência da computação focado na criação de sistemas capazes de realizar tarefas que normalmente requerem inteligência humana.

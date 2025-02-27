@@ -9,5 +9,7 @@
 # Table of Contents
 
 - [Glossário 🔜](docs/glossario.md)
-- [Conceitos 🔜](docs/conceitos.md)
+- [Conceitos 🔜](docs/README.md)
     - [Classificação](docs/classificacao/README.md)
+    - [Regressão](docs/regressao/README.md)
+- [Preparação de Dados](docs/preparacao_dados/README.md)

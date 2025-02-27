@@ -73,14 +73,14 @@ Falso Positivo (FP) | Verdadeiro Negativo (VN ou TN) | Verdadeiro Positivo (VP o
 
 ![alt text](image-8.png)
 
-#### Acurácia
+### Acurácia
 Fórmula: $\left(\frac{VP + VN}{VP + VN + FP + FN}\right)$
 
 - No exemplo acima: $\left(\frac{4 + 3}{4 + 3 + 2 + 1}\right)$ = $0.7$ ou 70% de acuracia.
 
 > O modelo classificou corretamente 70% das instâncias.
 
-#### Precisão
+### Precisão
 Fórmula: $\left(\frac{VP}{VP + FP}\right)$
 
 Proporção de instancia verdadeiramente positivas entre instâncias previstas como positivas. Ou seja, das instâncias previstas como positivas, quantos porcentos eram realmente positivas.
@@ -89,7 +89,7 @@ Proporção de instancia verdadeiramente positivas entre instâncias previstas c
 
 > Das intâncias previstas como positivas, 67% eram realmente positivas. Quantidade de clientes que pagarão o empréstimo. **Busca a qualidade das precições positivas do modelo.**
 
-#### Recall
+### Recall
 Fórmula: $\left(\frac{VP}{VP + FN}\right)$
 
 Sensibilidade ou Taxa de Verdadeiros positivos. A proporção de instancias classificadas como positivas em relação às instâncias positivas reais.
@@ -98,7 +98,7 @@ Sensibilidade ou Taxa de Verdadeiros positivos. A proporção de instancias clas
 
 > O modelo identificou corretamente 80% das instâncias boas. Usado para avaliar a eficácia do modelo de classificação. **O Recall se concentra na capacidade do modelo de identificar instâncias positivas.**.
 
-#### Especificidade
+### Especificidade
 Fórmula: $\left(\frac{VN}{VN + FP}\right)$
 
 Especificidade ou Taxa de Verdadeiros Negativos. A proporção de instancias classificadas como negativas em relação às instâncias negativas reais.
@@ -107,7 +107,7 @@ Especificidade ou Taxa de Verdadeiros Negativos. A proporção de instancias cla
 
 > Identificou corretamente 60% das instâncias negativas como negativas. Proporção de clientes de risco que são avaliados como tal. Eficaz na identificação de clientes que não podem pagar.
 
-#### F1-Score - [wikipedia](https://en.wikipedia.org/wiki/F-score)
+### F1-Score - [wikipedia](https://en.wikipedia.org/wiki/F-score)
 
 Se concentra na capacidade do modelo de identificar instâncias positivas e negativas.
 
@@ -117,7 +117,7 @@ Fórmula: $\left(\frac{2 \times Precisao \times Recall}{Precisao + Recall}\right
 
 > 0.73 indica que há um equilíbrio entre precisão e recall. Métrica importante para quando os dados estão em desequilíbrios. 
 
-#### ROC Curve (Característica operacional do receptor) - [wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+### ROC Curve (Característica operacional do receptor) - [wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 
 Apenas para classificação binária. Área sobre a curva
 
@@ -126,7 +126,7 @@ O ponto ideal na curva ROC é o canto superior esquerdo (0,1), onde a sensibilid
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Roccurves.png">
 
 
-#### Problema da Classe Rara
+### Problema da Classe Rara
 
 No caso de um modelo para detecção fraudulenta, a falta de balanceamento fará com que o modelo aprenda mais caractarísticas de detecção de transações OK. Em uma classe rara, o modelo poderá aprender a classificar todas as instâncias da classe rara como verdadeiras positivas, o que fará classificar todas as instâncias da classe rara como falsas positivas. 
 
@@ -136,7 +136,7 @@ No caso de um modelo para detecção fraudulenta, a falta de balanceamento fará
 
 
 
-#### Não devemos somente olhar acurácia
+### Não devemos somente olhar acurácia
 
 - Caso 1: Observe o Recall.
 ![alt text](image-10.png)
@@ -146,6 +146,6 @@ No caso de um modelo para detecção fraudulenta, a falta de balanceamento fará
 
 
 
-#### Problema de atributos desconhecidos
+### Problema de atributos desconhecidos
 
 > No treino do modelo tinha regiões Sul, Sudeste, Centro-Oeste e Norte, mas na produção aparece a região Nordeste (o modelo nunca ouviu falar).
