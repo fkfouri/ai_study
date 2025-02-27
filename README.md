@@ -12,4 +12,6 @@
 - [Conceitos 🔜](docs/README.md)
     - [Classificação](docs/classificacao/README.md)
     - [Regressão](docs/regressao/README.md)
+    - [Agrupamentos](docs/agrupamentos/README.md)
+    - [Associação](docs/associacao/README.md)
 - [Preparação de Dados](docs/preparacao_dados/README.md)
