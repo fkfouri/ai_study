@@ -80,3 +80,12 @@ Propriedades:
 - Sensível a Valores Próximos de Zero: O MAPE pode ser influenciado por valores observados próximos de zero, o que pode resultar em valores de erro muito altos.
 
 ![alt text](image-4.png)
+
+## Outras Métricas
+
+### AIC
+Quanto menos o AIC, melhor o modelo. Tem haver com performance.
+
+### BIC
+
+Quanto menos o BIC, melhor o modelo. Tem haver com performance.
