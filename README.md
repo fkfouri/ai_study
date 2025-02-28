@@ -18,3 +18,7 @@
     - [Preparação de Dados](a_fundamentos/preparacao_dados/README.md)
 
 - [Algoritmos 🔜](b_algoritmos/README.md)
+    - [Classificação](a_fundamentos/classificacao/ALGO.md)
+    - [Regressão](a_fundamentos/regressao/ALGO.md)
+    - [Agrupamentos](a_fundamentos/agrupamentos/ALGO.md)
+    - [Associação](a_fundamentos/associacao/ALGO.md)

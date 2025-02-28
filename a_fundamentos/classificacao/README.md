@@ -149,3 +149,4 @@ No caso de um modelo para detecção fraudulenta, a falta de balanceamento fará
 ### Problema de atributos desconhecidos
 
 > No treino do modelo tinha regiões Sul, Sudeste, Centro-Oeste e Norte, mas na produção aparece a região Nordeste (o modelo nunca ouviu falar).
+
