@@ -29,5 +29,6 @@ scipy = "^1.15.2"
 statsmodels = "^0.14.4"
 scikit-learn = "^1.6.1"
 yellowbrick = "^1.5"
+graphviz = "^0.20.3"
 
 
