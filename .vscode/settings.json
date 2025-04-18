@@ -1,0 +1,6 @@
+{
+    "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+    "markdown.copyFiles.destination": {
+        "**/*": "${documentDirName}/.attachments/"
+    }
+}
